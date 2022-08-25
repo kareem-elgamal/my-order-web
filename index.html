@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./bootstrap/bootstrap.min.css" rel="stylesheet" href="">
+  <link href="./css/main.css" rel="stylesheet" href="">
+  <title>My Order</title>
+</head>
+
+<body>
+  <!-- navbar -->
+  <section class="nav-section">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ">
+            <li class="nav-item  mx-4">
+              <a class="nav-link active">اتصل بنا</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link" href="#">انضم الينا</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link" href="#">عملاؤنا</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link" href="#">حمل التطبيق</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link" href="#">عن التطبيق</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link" aria-current="page" href="./index.html">الرئيسية</a>
+            </li>
+
+          </ul>
+        </div>
+        <a class="navbar-brand" href="#"> <img src="./image/logo.png" /> </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+  </section>
+  <!-- ////////////////////////////////////////-->
+
+  <!-- header without slider -->
+  <!-- ////////////////////////////////////////-->
+
+  <header class="header-cover bg-cover overflow-hidden">
+    <div class="row m-auto h-100 justify-content-between text-center align-items-center container">
+      <div class="col-5 h-100  m-auto position-relative larg-screen-only">
+        <img class="header-cover__image" src="./image/person-cover.png" />
+      </div>
+      <div class="col-12 col-md-6 m-auto header-cover__content ">
+        <div>
+          <span class="heder-badge my-3">مشروع تقييم المتاجر </span>
+          <h5 class="heder-title fw-normal my-3">يخدم المشروع المتاجر الالكترونية وغير الالكترونية </h5>
+          <p class="header-body fw-normal my-3">المشروع يخدم المتاجر الالكترونية وغير الالكترونية عبر انشاء تطبيق
+            لتقييم المتاجر والمطاعم والمقاهي
+            وتصفح القائمة الخاصه بهم ويمكن الطلب والتوصيل كما يوفر خدمة التفاعل مع أصحاب المطاعم
+            من الأكونت الخاص بهم , بالاضافة للتسويق بالعمولة علي المنتجات . </p>
+          <div style="text-align: center;">
+            <button type="button" class=" size-btn col-6 btn bg-q-primary my-3 ">احصل علي التطبيق الان</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ////////////////////////////////////////-->
+  <!-- header with slider -->
+  <!-- ////////////////////////////////////////-->
+
+
+  <header class="header-cover bg-cover my-5 ">
+    <div class="container h-100 p-0 m-0 m-auto">
+      <div id="carouselExampleDark" class="carousel slide carousel-dark h-100" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="btn-slider active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button class="btn-slider" type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button class="btn-slider" type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner h-100 ">
+          <!-- ///////////////////////// -->
+          <!-- item -->
+          <!-- ///////////////////////// -->
+          <div class="carousel-item active h-100  ">
+            <div class="row h-100 justify-content-between text-center align-items-center">
+              <div class="col-5 h-100 q-100  m-auto position-relative larg-screen-only">
+                <img class="header-cover__image-slide " src="./image/person-cover.png" />
+              </div>
+              <div class="col-12 col-md-6 m-auto header-cover__content ">
+                <div class="mx-4">
+                  <span class="heder-badge my-3">مشروع تقييم المتاجر </span>
+                  <h5 class="heder-title fw-normal my-3">يخدم المشروع المتاجر الالكترونية وغير الالكترونية </h5>
+                  <p class="header-body fw-normal my-3">المشروع يخدم المتاجر الالكترونية وغير الالكترونية عبر انشاء
+                    تطبيق لتقييم المتاجر والمطاعم والمقاهي
+                    وتصفح القائمة الخاصه بهم ويمكن الطلب والتوصيل كما يوفر خدمة التفاعل مع أصحاب المطاعم
+                    من الأكونت الخاص بهم , بالاضافة للتسويق بالعمولة علي المنتجات . </p>
+                  <div style="text-align: center;">
+                    <button type="button" class="col-6 btn bg-q-primary my-3 size-btn">احصل علي التطبيق الان</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ///////////////////////// -->
+          <!-- item -->
+          <!-- ///////////////////////// -->
+          <div class="carousel-item">
+            <div class=" row h-100 justify-content-between text-center align-items-center">
+              <div class=" col-5 h-100  m-auto position-relative larg-screen-only">
+                <img class=" header-cover__image-slide " src=" ./image/person-cover.png" />
+              </div>
+              <div class="col-12 col-md-6 m-auto header-cover__content ">
+                <div class="mx-4">
+                  <span class="heder-badge my-3">مشروع تقييم المتاجر </span>
+                  <h5 class="heder-title fw-normal my-3">يخدم المشروع المتاجر الالكترونية وغير الالكترونية </h5>
+                  <p class="header-body fw-normal my-3">المشروع يخدم المتاجر الالكترونية وغير الالكترونية عبر انشاء
+                    تطبيق لتقييم المتاجر والمطاعم والمقاهي
+                    وتصفح القائمة الخاصه بهم ويمكن الطلب والتوصيل كما يوفر خدمة التفاعل مع أصحاب المطاعم
+                    من الأكونت الخاص بهم , بالاضافة للتسويق بالعمولة علي المنتجات . </p>
+                  <div style="text-align: center;">
+                    <button type="button" class="col-6 btn bg-q-primary my-3 size-btn">احصل علي التطبيق الان</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ///////////////////////// -->
+          <!-- item -->
+          <!-- ///////////////////////// -->
+          <div class="carousel-item">
+            <div class=" row h-100 justify-content-between text-center align-items-center">
+              <div class=" col-5 h-100  m-auto position-relative larg-screen-only">
+                <img class=" header-cover__image-slide " src=" ./image/person-cover.png" />
+              </div>
+              <div class="col-12 col-md-6 m-auto header-cover__content ">
+                <div class="mx-4">
+                  <span class="heder-badge my-3">مشروع تقييم المتاجر </span>
+                  <h5 class="heder-title fw-normal my-3">يخدم المشروع المتاجر الالكترونية وغير الالكترونية </h5>
+                  <p class="header-body fw-normal my-3">المشروع يخدم المتاجر الالكترونية وغير الالكترونية عبر انشاء
+                    تطبيق لتقييم المتاجر والمطاعم والمقاهي
+                    وتصفح القائمة الخاصه بهم ويمكن الطلب والتوصيل كما يوفر خدمة التفاعل مع أصحاب المطاعم
+                    من الأكونت الخاص بهم , بالاضافة للتسويق بالعمولة علي المنتجات . </p>
+                  <div style="text-align: center;">
+                    <button type="button" class="col-6 btn bg-q-primary my-3 size-btn">احصل علي التطبيق الان</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" " type=" button" data-bs-target="#carouselExampleDark"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden text-dark">Previous</span>
+        </button>
+        <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </header>
+  <!-- ///////////////////// -->
+  <!-- start in main section -->
+  <!-- ///////////////////// -->
+  <!-- ///////////////////// -->
+  <!-- ///////////////////// -->
+  <!-- main content -->
+  <!-- ///////////////////// -->
+  <main>
+    <!-- ////////////////////////////// -->
+    <!-- start section about us -->
+    <!-- ////////////////////////////// -->
+    <section dir="rtl" class="about__app">
+      <div class="container">
+        <div class="about__app-content">
+          <h2 class="my-4 q-title">عن التطبيق</h3>
+        </div>
+        <div class="row justify-content-between align-items-center">
+          <!-- ///////////// -->
+          <!-- right section -->
+          <!-- ///////////// -->
+          <div class="col-12 col-sm-6 my-5 my-sm-2">
+            المشروع يخدم المتاجر الالكترونية وغير الالكترونية عبر انشاء تطبيق لتقييم المتاجر والمطاعم والمقاهي
+            وتصفح القائمة الخاصه بهم ويمكن الطلب والتوصيل كما يوفر خدمة التفاعل مع أصحاب المطاعم
+            من الأكونت الخاص بهم , بالاضافة للتسويق بالعمولة علي المنتجات ... <span
+              class="primary-color pointer">المزيد</span>
+
+          </div>
+          <!-- ///////////// -->
+          <!-- left section -->
+          <!-- ///////////// -->
+          <div class="col-12 col-sm-5">
+            <!-- ////////////////////////////// -->
+            <!-- first row has a icon and title -->
+            <!-- ////////////////////////////// -->
+            <div class=" mb-4 row justify-content-between align-items-center">
+              <div class="col-6">
+                <div class="row align-items-center ">
+                  <div class="col-4 icon icon-cover "><img class="icon-cover__img m-auto w-50 h-50"
+                      src="image/market 1.png" /> </div>
+                  <div class="col-7 icon-cover__content"><b>أكثر من+500 </b>
+                    <p>متجر</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="row align-items-center">
+                  <div class="col-4 icon icon-cover "><img class="icon-cover__img m-auto w-50 h-50"
+                      src="image/rating 1.png" /> </div>
+                  <div class="col-7 icon-cover__content"><b>مع المتاجر</b>
+                    <p>سهولة التفاعل
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ////////////////////////////// -->
+            <!-- soc row has a icon and title -->
+            <!-- ////////////////////////////// -->
+            <div class="mb-4 row justify-content-between align-items-center">
+              <div class="col-6">
+                <div class="row align-items-center">
+                  <div class="col-4 icon icon-cover "><img class="icon-cover__img m-auto w-50 h-50"
+                      src="image/delivery 1.png" /> </div>
+                  <div class="col-7 icon-cover__content"><b>بكل سهولة</b>
+                    <p>الطلب والتوصيل</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="row">
+                  <div class="col-4 icon icon-cover "><img class="icon-cover__img m-auto w-50 h-50"
+                      src="image/online-shopping 1.png" /> </div>
+                  <div class="col-7 icon-cover__content"><b>علي المنتجات</b>
+                    <p>التسويق بالعمولة</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about__app-cover">
+          <img src="./image/8555 1.png" />
+        </div>
+      </div>
+    </section>
+    <section class="download" dir="rtl">
+      <div class="container">
+        <div class="download-title text-center ">
+          <h2 class="my-4 q-title  text-center">حمل التطبيق</h3>
+        </div>
+        <h6 class="download__disc">
+          تطبيق اندرويد وايقون يتم تحميله مباشره
+          من متجر جوجل ومتجر ابل
+        </h6>
+        <div class="row justify-content-between">
+          <div class="col-6">
+            <ul class="download__list">
+              <li class="download__list-item"> <i class="fa-solid fa-check mark-radio"></i>
+              <b>سهولة الاستخدام</b> </li>
+              <li class="download__list-item"> <i class="fa-solid fa-check mark-radio"></i>
+                <b>تقييم المتاجر الالكترونية  و غير الالكترونية</b>
+              </li>
+              <li class="download__list-item"> <i class="fa-solid fa-check mark-radio"></i>
+                <b>سهولة تصفح المتاجر</b>
+              </li>
+              <li class="download__list-item"> <i class="fa-solid fa-check mark-radio"></i>
+                <b>توفير خدمة التفاعل مع اصحاب المطاعم</b>
+              </li>
+              <li class="download__list-item"> <i class="fa-solid fa-check mark-radio"></i>
+                <b>يمكن الطلب والتوصيل بكل سهولة</b>
+              </li>
+              <li class="download__list-item"> <i class="fa-solid fa-check mark-radio"></i>
+                <b>التسويق بالعمولة علي المنتجات</b>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6">
+            <img class="download-iphone__iphon" src="./image/X-Mockup.png" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ////////////////////////////// -->
+    <!-- end section about us -->
+    <!-- ////////////////////////////// -->
+
+  </main>
+  <script src="/bootstrap/bootstrap.min.js"></script>
+</body>
+
+</html>

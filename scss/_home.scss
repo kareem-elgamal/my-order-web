@@ -1,0 +1,235 @@
+.text-center{
+    text-align: center;
+}
+.header-cover{
+    position: relative !important;
+    height: 400px;
+
+    &__content{
+        direction: rtl;
+        text-align: right;
+        padding: 0  !important;
+        margin: 0 !important ;
+        .heder-badge{
+        display: block;
+        background-color: rgba(39, 89, 142, 0.1);
+        color: #27598E;
+        width: max-content;
+
+        }
+        .heder-title{
+            display: block;
+        color: $q-primary;
+        }
+        .header-body{
+            display: block;
+        }
+    }
+}
+
+.bg-q-primary{
+    background-color: $q-primary;
+    border: none;
+
+    // transition: all 0.1s ease-in-out;
+
+}
+.header-cover__image{
+    position: absolute ;
+    bottom:-50%;
+    left: 30%;
+    transform: translate(-50%, -70%);
+    height: 70%;
+    width: 100%;
+    @media (max-width: 768px){
+        width: 100%;
+        height: 300px;
+    }
+    &-slider{
+        position: absolute ;
+        top:50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+        height: 70%;
+        width: 100%;
+        @media (max-width: 768px){
+            width: 100%;
+            height: 300px;
+        }
+    }
+}
+.larg-screen-only{
+    display: block;
+    @media (max-width: 768px){
+    display: none;
+    }
+}
+.column-image{
+    overflow: hidden;
+}
+.btn-slider{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+}
+.q-title{
+    position: relative;
+    font-weight: bold;
+    width: max-content;
+    &::before{
+        content: "";
+        width: 100%;
+        height: 3px;
+        background-color: $q-primary;
+        position: absolute;
+        bottom: -3px;
+        left: 0;
+    }
+}
+.about__app{
+    // margin: 10px;
+    &-content{
+    margin: 20px;
+    }
+}
+.size-btn{
+    padding: 10px;
+    @media (max-width: 768px){
+        padding:7px;
+    }
+}
+.primary-color{
+    color: $q-primary;
+}
+.pointer{
+    cursor: pointer;
+}
+.text-center{
+    text-align: center;
+}
+.icon-cover{
+    background: rgba(0, 129, 0, 0.1);
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius:7px;
+    
+    &__img{
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50% , -50%);
+
+    }
+    &__content{
+        margin: auto;
+        display: block;
+        @media (max-width: 768px){
+            b{   font-size: 12px;}
+            p{   font-size: 10px;}
+                }
+
+    }
+}
+    .about__app-cover {
+        position: relative;
+        width: 100%;
+        height: 600px;
+        @media (max-width: 768px){
+            width: 100% ;
+            height: 300px ;
+                }
+        img{
+            margin: auto;
+            position: absolute;
+            left: 50%;
+            bottom:0;
+            transform: translateX(-50%);
+            width:70%;
+            height:80%;
+            @media (max-width: 768px){
+                width: 100% ;
+                height: 300px ;
+                    }
+        }
+    }
+
+    .download{
+        padding: 5px 0;
+        background: linear-gradient(to bottom, $q-bg-cover 80%, transparent 30%); 
+        height: 100vh;
+        @media (max-width: 768px){
+            height: auto;
+            background:$q-bg-cover; 
+
+                }
+
+            &-title{
+                margin: 0;
+                padding: 0;
+            width: 100%;
+            h2{
+                width: max-content;
+                margin: auto;
+            }
+        }
+        &__disc{
+            text-align: center;
+            line-height: 20px;
+            color: $q-socond;
+            margin-top: 50px;
+            word-spacing:5px;
+        }
+        &__list{
+            margin-top: 90px;
+            text-decoration: none;
+            list-style: none;
+            @media (max-width: 768px){
+                font-size: 12px;
+                margin-top: 50px;     
+                padding: 0;
+                    }
+
+
+            &-item{
+            margin:30px 0;
+            display: block;
+            text-justify: distribute;
+            word-spacing:1px;
+            @media (max-width: 768px){
+                margin:15px 0;
+                    }
+                b{
+                    color: $q-socond;
+                    margin: 0 15px;
+                    @media (max-width: 768px){
+                        margin:0 5px;
+                            }
+                }
+
+            }
+
+        }
+        &-iphone__iphon{
+            margin-top: 90px;
+            height: calc(100% - 100px);
+            width: 70%;
+            @media (max-width: 768px){
+                margin-top: 50px;
+                width: 100%;
+                    }
+        }
+    }
+    .mark-radio{
+        border: 2px solid $q-socond ;
+        padding: 3px;
+        border-radius: 50%;
+        font-size: 15px;
+        @media (max-width: 768px){
+            border: 2px solid $q-socond ;
+            font-size:10px;
+            padding:2px;
+                }
+    }
