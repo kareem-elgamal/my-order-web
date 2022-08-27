@@ -1,10 +1,16 @@
-
+///////////////////////////////
+// main
 @import "variables";
-@import "home";
 @import "basic";
+///////////////////////////////
+// font  awsesome
 @import "./scss/fontawesome.scss";
 @import "./scss/solid.scss";
 @import "./scss/brands.scss";
+///////////////////////////////
+// pages
+@import "home";
+@import "./pages/about-app";
 
 // for Duotones need both files
 // @import "./scss/duotone.scss";

@@ -1,63 +1,9 @@
+.bg-cover {
+  background: linear-gradient(to bottom, #F1F1EF, #E4EDED);
+}
+
 .text-center {
   text-align: center;
-}
-
-.header-cover {
-  position: relative !important;
-  height: 400px;
-}
-.header-cover__content {
-  direction: rtl;
-  text-align: right;
-  padding: 0 !important;
-  margin: 0 !important;
-}
-.header-cover__content .heder-badge {
-  display: block;
-  background-color: rgba(39, 89, 142, 0.1);
-  color: #27598E;
-  width: max-content;
-}
-.header-cover__content .heder-title {
-  display: block;
-  color: #FF6B61;
-}
-.header-cover__content .header-body {
-  display: block;
-}
-
-.bg-q-primary {
-  background-color: #FF6B61;
-  border: none;
-}
-
-.header-cover__image {
-  position: absolute;
-  bottom: -50%;
-  left: 30%;
-  transform: translate(-50%, -70%);
-  height: 70%;
-  width: 100%;
-}
-@media (max-width: 768px) {
-  .header-cover__image {
-    width: 100%;
-    height: 300px;
-  }
-}
-.header-cover__image-slider {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  height: 70%;
-  width: 100%;
-}
-@media (max-width: 768px) {
-  .header-cover__image-slider {
-    width: 100%;
-    height: 300px;
-  }
 }
 
 .larg-screen-only {
@@ -69,14 +15,16 @@
   }
 }
 
-.column-image {
-  overflow: hidden;
+.primary-color {
+  color: #FF6B61;
 }
 
-.btn-slider {
-  width: 10px !important;
-  height: 10px !important;
-  border-radius: 50% !important;
+.pointer {
+  cursor: pointer;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .q-title {
@@ -94,173 +42,24 @@
   left: 0;
 }
 
-.about__app-content {
-  margin: 20px;
-}
-
-.size-btn {
-  padding: 10px;
-}
-@media (max-width: 768px) {
-  .size-btn {
-    padding: 7px;
-  }
-}
-
-.primary-color {
-  color: #FF6B61;
-}
-
-.pointer {
-  cursor: pointer;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.icon-cover {
-  background: rgba(0, 129, 0, 0.1);
-  position: relative;
-  width: 60px;
-  height: 60px;
-  border-radius: 7px;
-}
-.icon-cover__img {
-  position: absolute;
-  width: 35px;
-  height: 35px;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
-.icon-cover__content {
-  margin: auto;
-  display: block;
-}
-@media (max-width: 768px) {
-  .icon-cover__content b {
-    font-size: 12px;
-  }
-  .icon-cover__content p {
-    font-size: 10px;
-  }
-}
-
-.about__app-cover {
-  position: relative;
-  width: 100%;
-  height: 600px;
-}
-@media (max-width: 768px) {
-  .about__app-cover {
-    width: 100%;
-    height: 300px;
-  }
-}
-.about__app-cover img {
-  margin: auto;
-  position: absolute;
-  left: 50%;
-  bottom: 0;
-  transform: translateX(-50%);
-  width: 70%;
-  height: 80%;
-}
-@media (max-width: 768px) {
-  .about__app-cover img {
-    width: 100%;
-    height: 300px;
-  }
-}
-
-.download {
-  padding: 5px 0;
-  background: linear-gradient(to bottom, #F1F1EF 80%, transparent 30%);
-  height: 100vh;
-}
-@media (max-width: 768px) {
-  .download {
-    height: auto;
-    background: #F1F1EF;
-  }
-}
-.download-title {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-.download-title h2 {
-  width: max-content;
-  margin: auto;
-}
-.download__disc {
-  text-align: center;
-  line-height: 20px;
+.disc {
+  font-size: 17px;
+  line-height: 25px;
   color: #214752;
-  margin-top: 50px;
-  word-spacing: 5px;
 }
-.download__list {
-  margin-top: 90px;
-  text-decoration: none;
-  list-style: none;
-}
-@media (max-width: 768px) {
-  .download__list {
-    font-size: 12px;
-    margin-top: 50px;
-    padding: 0;
-  }
-}
-.download__list-item {
-  margin: 30px 0;
-  display: block;
-  text-justify: distribute;
-  word-spacing: 1px;
-}
-@media (max-width: 768px) {
-  .download__list-item {
-    margin: 15px 0;
-  }
-}
-.download__list-item b {
-  color: #214752;
-  margin: 0 15px;
-}
-@media (max-width: 768px) {
-  .download__list-item b {
-    margin: 0 5px;
-  }
-}
-.download-iphone__iphon {
-  margin-top: 90px;
-  height: calc(100% - 100px);
-  width: 70%;
-}
-@media (max-width: 768px) {
-  .download-iphone__iphon {
-    margin-top: 50px;
-    width: 100%;
-  }
+.d-flex-culomn {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 auto;
+  justify-content: space-between;
 }
 
-.mark-radio {
-  border: 2px solid #214752;
-  padding: 3px;
-  border-radius: 50%;
-  font-size: 15px;
-}
-@media (max-width: 768px) {
-  .mark-radio {
-    border: 2px solid #214752;
-    font-size: 10px;
-    padding: 2px;
-  }
+.text-right {
+  text-align: right;
 }
 
-.bg-cover {
-  background: linear-gradient(to bottom, #F1F1EF, #E4EDED);
+.text-left {
+  text-align: left;
 }
 
 /*!
@@ -10513,6 +10312,376 @@ readers do not read off random characters that represent icons */
 
 .fa-zhihu:before {
   content: "\f63f";
+}
+
+.header-cover {
+  position: relative !important;
+  height: 400px;
+}
+.header-cover__content {
+  direction: rtl;
+  text-align: right;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.header-cover__content .heder-badge {
+  display: block;
+  background-color: rgba(39, 89, 142, 0.1);
+  color: #27598E;
+  width: max-content;
+}
+.header-cover__content .heder-title {
+  display: block;
+  color: #FF6B61;
+}
+.header-cover__content .header-body {
+  display: block;
+}
+
+.bg-q-primary {
+  background-color: #FF6B61;
+  border: none;
+}
+
+.header-cover__image {
+  position: absolute;
+  bottom: -50%;
+  left: 30%;
+  transform: translate(-50%, -70%);
+  height: 70%;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .header-cover__image {
+    width: 100%;
+    height: 300px;
+  }
+}
+.header-cover__image-slider {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 70%;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .header-cover__image-slider {
+    width: 100%;
+    height: 300px;
+  }
+}
+
+.column-image {
+  overflow: hidden;
+}
+
+.btn-slider {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50% !important;
+}
+
+.about__app-content {
+  margin: 20px;
+}
+
+.size-btn {
+  padding: 10px;
+}
+@media (max-width: 768px) {
+  .size-btn {
+    padding: 7px;
+  }
+}
+
+.icon-cover {
+  background: rgba(0, 129, 0, 0.1);
+  position: relative;
+  width: 60px;
+  height: 60px;
+  border-radius: 7px;
+}
+.icon-cover__img {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.icon-cover__content {
+  margin: auto;
+  display: block;
+}
+@media (max-width: 768px) {
+  .icon-cover__content b {
+    font-size: 12px;
+  }
+  .icon-cover__content p {
+    font-size: 10px;
+  }
+}
+
+.about__app-cover {
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+@media (max-width: 768px) {
+  .about__app-cover {
+    width: 100%;
+    height: 300px;
+  }
+}
+.about__app-cover img {
+  margin: auto;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 70%;
+  height: 80%;
+}
+@media (max-width: 768px) {
+  .about__app-cover img {
+    width: 100%;
+    height: 300px;
+  }
+}
+
+.download {
+  padding: 5px 0;
+  background: linear-gradient(to bottom, #F1F1EF 80%, transparent 30%);
+  height: 100vh;
+}
+@media (max-width: 768px) {
+  .download {
+    height: auto;
+    background: #F1F1EF;
+  }
+}
+.download-title {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.download-title h2 {
+  width: max-content;
+  margin: auto;
+}
+.download__disc {
+  text-align: center;
+  line-height: 20px;
+  color: #214752;
+  margin-top: 50px;
+  word-spacing: 5px;
+}
+.download__list {
+  margin-top: 90px;
+  text-decoration: none;
+  list-style: none;
+}
+@media (max-width: 768px) {
+  .download__list {
+    font-size: 12px;
+    margin-top: 50px;
+    padding: 0;
+  }
+}
+.download__list-item {
+  margin: 30px 0;
+  display: block;
+  text-justify: distribute;
+  word-spacing: 1px;
+}
+@media (max-width: 768px) {
+  .download__list-item {
+    margin: 15px 0;
+  }
+}
+.download__list-item b {
+  color: #214752;
+  margin: 0 15px;
+}
+@media (max-width: 768px) {
+  .download__list-item b {
+    margin: 0 5px;
+  }
+}
+.download-iphone__iphon {
+  margin-top: 90px;
+  height: calc(100% - 100px);
+  width: 70%;
+}
+@media (max-width: 768px) {
+  .download-iphone__iphon {
+    width: 100%;
+    height: 300px;
+  }
+}
+.download-btn {
+  background-color: #FF6B61;
+  color: white;
+  border: none;
+  padding: 11px 50px;
+  font-weight: 600;
+}
+@media (max-width: 768px) {
+  .download-btn {
+    padding: 5px 30px;
+    margin: 0;
+  }
+}
+.download__store-g, .download__store-a {
+  margin: auto;
+  width: 150px;
+  transition: all 0.1s ease-in-out;
+}
+.download__store-g:hover, .download__store-g:active, .download__store-a:hover, .download__store-a:active {
+  opacity: 0.8;
+}
+.download__fix-title {
+  word-spacing: normal;
+}
+@media (max-width: 768px) {
+  .download__fix-title {
+    font-size: 15px;
+    margin: 10px auto !important;
+    padding: 0;
+  }
+}
+@media (max-width: 768px) {
+  .download__fix-disc {
+    font-size: 13px;
+    margin: 10px auto !important;
+    line-height: 20px;
+    text-align: right;
+  }
+}
+
+.mark-radio {
+  border: 2px solid #214752;
+  padding: 3px;
+  border-radius: 50%;
+  font-size: 15px;
+}
+@media (max-width: 768px) {
+  .mark-radio {
+    border: 2px solid #214752;
+    font-size: 10px;
+    padding: 2px;
+  }
+}
+
+.about-app {
+  width: 100%;
+  height: 250px;
+  position: relative;
+  background-image: url("../../image/about-app-header.png");
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.about-app::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+}
+.about-app .about-app__title {
+  filter: brightness(1);
+  position: absolute;
+  right: 60px;
+  top: 50%;
+  transform: translate(0, -100%);
+  color: #fff;
+  font-weight: normal;
+  z-index: 3;
+}
+@media (max-width: 768px) {
+  .about-app .about-app__title {
+    right: 20 px;
+  }
+}
+.about-app__disc {
+  margin: 20px auto;
+  width: 100%;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .about-app__disc {
+    width: 100%;
+  }
+}
+.about-app__disc--content {
+  width: 70%;
+  line-height: 30px;
+  color: #214752;
+}
+@media (max-width: 768px) {
+  .about-app__disc--content {
+    width: 100%;
+  }
+}
+.about-app__download-disc {
+  word-spacing: normal;
+  margin: 0;
+}
+
+.my-specialist {
+  position: relative;
+}
+.my-specialist::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  background-color: #FF6B61;
+  z-index: -1;
+  width: 600px;
+  height: 600px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+@media (max-width: 1100px) {
+  .my-specialist::after {
+    width: 400px;
+    height: 400px;
+  }
+}
+@media (max-width: 768px) {
+  .my-specialist::after {
+    width: 170px;
+    height: 170px;
+    top: 60%;
+  }
+}
+.my-specialist__img {
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 768px) {
+  .my-specialist__img {
+    height: 230px;
+  }
+}
+.my-specialist-p {
+  font-size: 15px;
+}
+@media (max-width: 768px) {
+  .my-specialist-p {
+    margin: 0;
+    font-size: 10px;
+  }
+  .my-specialist-p .fa-solid {
+    font-size: 8px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
