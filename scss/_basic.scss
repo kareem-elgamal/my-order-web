@@ -10,6 +10,12 @@
     display: none;
     }
 }
+.small-screen-only{
+    display: none ; 
+    @media (max-width: 768px){
+    display: block ;
+    }
+}
 .primary-color{
     color: $q-primary;
 }

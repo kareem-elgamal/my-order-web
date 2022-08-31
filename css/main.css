@@ -15,6 +15,15 @@
   }
 }
 
+.small-screen-only {
+  display: none;
+}
+@media (max-width: 768px) {
+  .small-screen-only {
+    display: block;
+  }
+}
+
 .primary-color {
   color: #FF6B61;
 }
@@ -10682,6 +10691,120 @@ readers do not read off random characters that represent icons */
   .my-specialist-p .fa-solid {
     font-size: 8px;
   }
+}
+
+.opinions {
+  margin: 30px auto;
+}
+.opinions__card {
+  padding: 20px;
+  border: 1px solid rgba(204, 204, 204, 0.767);
+  border-radius: 14px;
+  width: 32%;
+}
+@media (max-width: 768px) {
+  .opinions__card {
+    width: 90%;
+  }
+}
+.opinions__avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.opinions__mobile {
+  display: none;
+  overflow-x: scroll;
+  padding: 24px;
+  width: 100%;
+  scroll-snap-type: mandatory;
+  scroll-padding: 24px;
+  border-radius: 8px;
+  gap: 6px;
+}
+@media (max-width: 768px) {
+  .opinions__mobile {
+    display: flex;
+  }
+}
+.opinions__mobile::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+.opinions__mobile::-webkit-scrollbar-thumb {
+  border-radius: 14px;
+  border: 5px solid #FF6B61;
+}
+.opinions__mobile__item {
+  flex: 0 0 100%;
+  padding: 10px;
+  scroll-snap-align: start;
+  font-size: 0.8rem;
+}
+
+.hiring {
+  background-color: #F1F1EF;
+  padding: 20px;
+  position: relative;
+  height: max-content;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.hiring__content {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+.hiring__arrow {
+  position: absolute;
+  height: 100%;
+  right: 10%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+@media (max-width: 768px) {
+  .hiring__arrow {
+    width: 10%;
+    height: 70%;
+    right: 0;
+  }
+}
+.hiring__btn {
+  padding: 10px 40px;
+}
+
+.top-footer {
+  height: 100px;
+  position: relative;
+  width: 80%;
+  flex-wrap: wrap;
+}
+@media (max-width: 1300px) {
+  .top-footer {
+    width: 90%;
+  }
+}
+.top-footer__col {
+  flex: 1 0 12%;
+  white-space: nowrap;
+}
+.top-footer__col a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.726);
+  font-size: 1rem;
+  font-weight: 500;
+}
+.bottom-footer {
+  background-color: #FF6B61;
+  width: 100vw;
+  color: #F1F1EF;
+  height: 30px !important;
+}
+.bottom-footer p {
+  text-align: center;
+  margin: auto;
+  height: 100%;
 }
 
 /*# sourceMappingURL=main.css.map */
