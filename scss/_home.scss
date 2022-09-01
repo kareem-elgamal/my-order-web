@@ -268,3 +268,15 @@
     height: 400px;
     margin: 50px 0;
 }
+.navbar-collapse{
+    transition: all  0.8s linear;
+}
+.navbar-collapse ul li a:hover{
+    color: $q-primary;
+
+
+}
+
+.nav-section{
+    z-index: 5000;
+}

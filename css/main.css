@@ -84,6 +84,52 @@
   height: 100%;
 }
 
+.animat-popup:hover {
+  animation: popup 0.6s linear;
+}
+
+.sticky {
+  transition: 0.7s;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  animation: animat-nav 0.8s linear forwards;
+}
+
+@keyframes animat-nav {
+  0% {
+    top: 50px;
+  }
+  20% {
+    top: 40px;
+  }
+  40% {
+    top: 30px;
+  }
+  60% {
+    top: 20px;
+  }
+  80% {
+    top: 10px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+@keyframes popup {
+  0% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.1);
+  }
+  80% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 /*!
  * Font Awesome Free 6.1.2 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -10474,13 +10520,13 @@ readers do not read off random characters that represent icons */
 
 .download {
   padding: 5px 0;
-  background: linear-gradient(to bottom, #F1F1EF 80%, transparent 30%);
+  background: linear-gradient(to bottom, #E4EDED 80%, transparent 30%);
   height: 100vh;
 }
 @media (max-width: 768px) {
   .download {
     height: auto;
-    background: #F1F1EF;
+    background: #E4EDED;
   }
 }
 .download-title {
@@ -10612,6 +10658,18 @@ readers do not read off random characters that represent icons */
 .join-us {
   height: 400px;
   margin: 50px 0;
+}
+
+.navbar-collapse {
+  transition: all 0.8s linear;
+}
+
+.navbar-collapse ul li a:hover {
+  color: #FF6B61;
+}
+
+.nav-section {
+  z-index: 5000;
 }
 
 .about-app {
@@ -10774,7 +10832,7 @@ readers do not read off random characters that represent icons */
 }
 
 .hiring {
-  background-color: #F1F1EF;
+  background-color: #E4EDED;
   padding: 20px;
   position: relative;
   height: max-content;
@@ -10829,7 +10887,7 @@ readers do not read off random characters that represent icons */
 .bottom-footer {
   background-color: #FF6B61;
   width: 100vw;
-  color: #F1F1EF;
+  color: #E4EDED;
   height: 30px !important;
 }
 .bottom-footer p {
