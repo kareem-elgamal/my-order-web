@@ -96,6 +96,21 @@
   animation: animat-nav 0.8s linear forwards;
 }
 
+.navbar .active {
+  border-radius: 5px;
+  position: relative;
+  color: #FF6B61;
+}
+.navbar .active::after {
+  content: "";
+  background-color: #FF6B61;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  left: 0;
+  bottom: -5px;
+}
+
 @keyframes animat-nav {
   0% {
     top: 50px;
@@ -128,6 +143,26 @@
   }
   100% {
     transform: scale(1);
+  }
+}
+@keyframes animat-nav {
+  0% {
+    top: 50px;
+  }
+  20% {
+    top: 40px;
+  }
+  40% {
+    top: 30px;
+  }
+  60% {
+    top: 20px;
+  }
+  80% {
+    top: 10px;
+  }
+  100% {
+    top: 0px;
   }
 }
 /*!
@@ -10670,6 +10705,10 @@ readers do not read off random characters that represent icons */
 
 .nav-section {
   z-index: 5000;
+}
+
+.btn {
+  border: none !important;
 }
 
 .about-app {

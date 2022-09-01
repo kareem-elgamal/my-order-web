@@ -16,3 +16,28 @@
         
     }
 }
+
+@keyframes animat-nav{
+    0%{
+        top: 50px
+    }
+    20%{
+        top: 40px
+
+    }
+    40%{
+        top: 30px
+
+    }
+    60%{
+        top: 20px
+
+    }
+    80%{
+        top: 10px
+
+    }
+    100%{
+        top: 0px
+    }
+  }
