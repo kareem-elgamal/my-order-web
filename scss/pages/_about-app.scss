@@ -203,17 +203,14 @@
         //     max-height: 50px;
             
         // }
-            img{
-
-            }
     }
 
 }
 .bottom-footer{
-    background-color: $q-primary;
-    width: 100vw;
+    background-color: $q-primary;width: 100%;
     color: $q-bg-cover;
     height:30px !important;
+    margin: auto;
     p{
         text-align: center;
         margin: auto;
