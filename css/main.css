@@ -134,6 +134,10 @@
     top: 0px;
   }
 }
+input[type=number] {
+  -moz-appearance: textfield !important;
+}
+
 @keyframes popup {
   0% {
     transform: scale(1);
@@ -10973,7 +10977,7 @@ readers do not read off random characters that represent icons */
 }
 @media (max-width: 768px) {
   .terms__header__title {
-    right: 20 px;
+    right: 20px;
   }
 }
 
@@ -11002,6 +11006,191 @@ readers do not read off random characters that represent icons */
 }
 .main-Terms--list p {
   padding-right: 50px;
+}
+.main-Terms--disc b {
+  font-size: 1.7rem;
+  font-weight: normal;
+  color: #214752;
+  display: block;
+  margin: 10px 0;
+}
+.main-Terms--disc p {
+  font-size: 1rem;
+  color: #777;
+}
+
+.policy-header {
+  width: 100%;
+  height: 250px;
+  position: relative;
+  background-image: url("../../image/policy-header.png");
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.policy-header::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+}
+
+.policy-header__title {
+  filter: brightness(1);
+  position: absolute;
+  right: 60px;
+  top: 50%;
+  transform: translate(0, -100%);
+  color: #fff;
+  font-weight: normal;
+  z-index: 3;
+}
+@media (max-width: 768px) {
+  .policy-header__title {
+    right: 20 px;
+  }
+}
+
+.about-us__content b {
+  font-size: 1.7rem;
+  font-weight: normal;
+  color: #214752;
+  display: block;
+  margin: 10px 0;
+}
+.about-us__content p {
+  font-size: 1rem;
+  color: #777;
+}
+.about-us__img {
+  width: 100%;
+  height: 100%;
+}
+.about-us__img img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.hiring-header {
+  width: 100%;
+  height: 250px;
+  position: relative;
+  background-image: url("../../image/hiring.png");
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.hiring-header::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+}
+
+.hiring-header__title {
+  filter: brightness(1);
+  position: absolute;
+  right: 60px;
+  top: 50%;
+  transform: translate(0, -100%);
+  color: #fff;
+  font-weight: normal;
+  z-index: 3;
+}
+@media (max-width: 768px) {
+  .hiring-header__title {
+    right: 20 px;
+  }
+}
+
+.hiring-page__container {
+  margin: 50px auto;
+  text-align: right;
+}
+.hiring-page__hint {
+  margin: 50px auto;
+  font-weight: 500;
+  font-size: 1.3rem;
+  text-align: right;
+  color: #214752;
+}
+.hiring-page__title {
+  margin: 50px auto;
+  font-weight: 700;
+  font-size: 1.4rem;
+  text-align: right;
+  color: #FF6B61;
+}
+
+input[type=number] {
+  -moz-appearance: textfield !important;
+  appearance: textfield !important;
+}
+
+.input-eddict {
+  height: 50px;
+  background: rgba(217, 217, 217, 0.2);
+}
+
+.pick-file {
+  width: 100%;
+  height: 100px;
+  position: relative;
+}
+.pick-file::after {
+  content: "Upload";
+  margin-top: 20px;
+  position: absolute;
+  width: 100%;
+  height: 80px;
+  background: rgba(217, 217, 217, 0.2);
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  height: 50px;
+  transform: translate(-50%, -50%);
+  border: #FF6B61 1px solid;
+  padding: 10px;
+  cursor: pointer;
+  color: gray;
+}
+.pick-file__icon {
+  position: absolute;
+  width: 50px;
+  height: 30px;
+  left: 40%;
+  top: 50%;
+}
+@media (max-width: 768px) {
+  .pick-file__icon {
+    left: 25%;
+  }
+}
+
+@media (max-width: 768px) {
+  .hiring-form-handel__btn {
+    text-align: center !important;
+  }
+}
+.hiring-form__btn {
+  color: #fff;
+  width: 25%;
+  background-color: #FF6B61;
+}
+@media (max-width: 768px) {
+  .hiring-form__btn {
+    width: 50%;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
